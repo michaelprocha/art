@@ -9,7 +9,7 @@ function Logo() {
                     <img className='logo' src={imgLogo} alt="logo" />
                 </div>
                 <div className='col'>
-                    <Text as="h1" className='display-3 text-dark'>Art</Text>
+                    <Text as={"h1"} className={'display-3 text-dark'}>Art</Text>
                 </div>
             </div>
         
