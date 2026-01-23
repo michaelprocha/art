@@ -4,20 +4,14 @@ import Navegation from "./Navegation";
 
 function Header() {
   return (
-    <header className="container-fluid px-0">
-      <Logo />
+    <header className="container-fluid px-0 py-2">
       <div className="row">
         <div className="col">
+          <Logo />
           <Text as={'h2'} className={'h4 text-dark text-center'}>Exibições de arte urbana</Text>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col">
           <hr />
+          <Navegation />
         </div>
-      </div>
-      <div className="row">
-        <Navegation />
       </div>
     </header>
   )
