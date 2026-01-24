@@ -4,13 +4,13 @@ function Card({cardType = false, family, hrefImg, descImg, className }) {
 
     if (cardType) {
         return (
-            <div className="card">
-                <img src={hrefImg} alt={descImg} className={`card-img-top ${className}`}/>
-                <div className="card-body">
-                    <Text as={'h4'} className={'card-title text-dark'}>
+            <div className={`card ${className}`}>
+                <img src={hrefImg} alt={descImg} className={`card-img-top body-image`}/>
+                <div className="card-body px-0">
+                    <Text as={'h5'} className={'card-title text-dark h3'}>
                         {family[0]}
                     </Text>
-                    <Text as={'p'} className={'card-text text-dark'}>
+                    <Text as={'p'} className={'card-text text-body-secondary'}>
                         {family[1]}
                     </Text>
                     <Text as={"button"} className={'btn btn-dark mx-auto'} rest={{ type: 'button' }}>

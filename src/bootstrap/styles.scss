@@ -8,7 +8,7 @@ a {
     width: 3rem;
 }
 
-.hero{
+.hero {
     border-width: 0;
     border-radius: 0;
 }
@@ -18,11 +18,22 @@ a {
     object-fit: cover;
 }
 
+.body-image{
+    border-radius: 0;
+    height: 16rem;
+    object-fit: cover;
+}
+
 .main-card {
     color: black;
     max-width: fit-content;
     max-height: 11rem;
     top: 12rem;
     left: 1.5rem;
+    border-radius: 0;
+}
+
+.body-card {
+    border-width: 0;
     border-radius: 0;
 }
