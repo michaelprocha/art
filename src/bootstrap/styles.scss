@@ -1,1 +1,68 @@
 @import "bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 3rem;
+}
+
+.hero {
+    border-width: 0;
+    border-radius: 0;
+}
+
+.main-image {
+    height: 25rem;
+    object-fit: cover;
+}
+
+.body-image {
+    border-radius: 0;
+    height: 16rem;
+    object-fit: cover;
+}
+
+.link-social-image {
+    margin: 2rem;
+
+    .social-image {
+        font-size: 1.3rem;
+    }
+
+    &:hover {
+        .social-image {
+            opacity: 0.5;
+        }
+    }
+}
+
+.social-image:hover {
+    color: #e4bd4a;
+}
+
+.main-card {
+    color: black;
+    max-width: fit-content;
+    max-height: 11rem;
+    top: 12rem;
+    left: 1.5rem;
+    border-radius: 0;
+}
+
+.body-card {
+    border-width: 0;
+    border-radius: 0;
+}
