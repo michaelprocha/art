@@ -8,8 +8,7 @@ function Header() {
       <div className="row">
         <div className="col">
           <Logo />
-          <Text as={'h2'} className={'h4 text-dark text-center'}>Exibições de arte urbana</Text>
-          <hr />
+          <Text as={'h2'} className={'h4 text-dark text-center pb-3'}>Exibições de arte urbana</Text>
           <Navegation />
         </div>
       </div>

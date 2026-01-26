@@ -1,4 +1,14 @@
 @import "bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
 
 a {
     text-decoration: none;
@@ -22,6 +32,11 @@ a {
     border-radius: 0;
     height: 16rem;
     object-fit: cover;
+}
+
+.social-image{
+    margin: 2rem;
+    font-size: 1.3rem;
 }
 
 .main-card {

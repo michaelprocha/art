@@ -7,7 +7,7 @@ function Main() {
     const { cardsBody } = useCards();
 
     return (
-        <main className='container pt-2'>
+        <main className='container pt-2 pb-5'>
             <Hero />
             <div className="row">
                 <div className="col">
