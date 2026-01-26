@@ -1,9 +1,9 @@
 function SocialMedia() {
     return (
         <div className='d-flex justify-content-center'>
-            <i className="social-image bi bi-facebook text-body-secondary"></i>
-            <i class="social-image bi bi-instagram text-body-secondary"></i>
-            <i class="social-image bi bi-twitter text-body-secondary"></i>
+            <a href="#" className="link-social-image"><i className="bi bi-facebook text-body-secondary social-image"></i></a>
+            <a href="#" className="link-social-image"><i class="bi bi-instagram text-body-secondary social-image"></i></a>
+            <a href="#" className="link-social-image"><i class="bi bi-twitter text-body-secondary social-image"></i></a>
         </div>
     )
 }

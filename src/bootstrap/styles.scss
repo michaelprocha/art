@@ -2,12 +2,13 @@
 @import "node_modules/bootstrap-icons/font/bootstrap-icons.css";
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-html, body {
-  overflow-x: hidden;
-  width: 100%;
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
 }
 
 a {
@@ -28,15 +29,28 @@ a {
     object-fit: cover;
 }
 
-.body-image{
+.body-image {
     border-radius: 0;
     height: 16rem;
     object-fit: cover;
 }
 
-.social-image{
+.link-social-image {
     margin: 2rem;
-    font-size: 1.3rem;
+
+    .social-image {
+        font-size: 1.3rem;
+    }
+
+    &:hover {
+        .social-image {
+            opacity: 0.5;
+        }
+    }
+}
+
+.social-image:hover {
+    color: #e4bd4a;
 }
 
 .main-card {

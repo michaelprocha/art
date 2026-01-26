@@ -15,11 +15,11 @@ function Main() {
                 </div>
             </div>
             {cardsBody.map((row, iRow) => (
-                <div key={iRow} className="row g-5 my-2">
+                <div key={iRow} className="row row-cols-1 row-cols-md-2 g-5 my-2">
                     {row.map((card, iCard, arrCard) => {
                         if (arrCard.length === 1) {
                             return (
-                                <div key={iCard} className="col-6">
+                                <div key={iCard} className="col">
                                     <Card cardType={card.cardType}
                                         family={card.family}
                                         hrefImg={card.hrefImg} className={card.className} />
