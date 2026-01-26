@@ -1,16 +1,59 @@
-# React + Vite
+# Art
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website is a single-page application called Art that displays urban art content in a simple and organized way.
+The main goal of the project is to present visual artworks using a clean layout and responsive design.
 
-Currently, two official plugins are available:
+The application was built with ReactJS and Vite, focusing on performance and simplicity, and uses Bootstrap to ensure basic responsiveness and layout structure.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📷 Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Desktop
+![screenshot-desktop](screenshots/artDesktop.png)
 
-## Expanding the ESLint configuration
+### Mobile
+![screenshot-mobile](screenshots/artMobile.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Technologies
+
+- React
+
+- Bootstrap
+
+- Vite
+
+---
+
+## 📦 How to use
+
+1. Clone the repository:
+```bash
+git clone https://github.com/michaelprocha/art
+```
+
+2. Dowloand [NodeJS](https://nodejs.org/en/download).
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Run locally
+```bash
+npm run dev
+```
+
+---
+
+## 👨‍💻 Author
+
+Made by [Michael Rocha](https://github.com/michaelprocha)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
